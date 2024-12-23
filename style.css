@@ -1,0 +1,81 @@
+body{
+    background-image: url('https://iso.500px.com/wp-content/uploads/2013/08/11834033-1170.jpeg');
+}
+.clock{
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0; margin: auto;
+    border: 30px solid rgb(220, 220, 220); 
+    outline: 15px solid rgb(60, 7, 60);  
+}
+.number{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font: 21px;
+}
+.number1{
+    transform: rotate(30deg);
+}
+.number2{
+    transform: rotate(60deg);
+}
+.number3{
+    transform: rotate(90deg);
+}
+.number4{
+    transform: rotate(120deg);
+}
+.number5{
+    transform: rotate(150deg);
+}
+.number6{
+    transform: rotate(180deg);
+}
+.number7{
+    transform: rotate(210deg);
+}
+.number8{
+    transform: rotate(240deg);
+}
+.number9{
+    transform: rotate(270deg);
+}
+.number10{
+    transform: rotate(300deg);
+}
+.number11{
+    transform: rotate(330deg);
+}
+.number12{
+    transform: rotate(360deg);
+}
+.hand{
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    border-radius: 10px;
+    z-index: 10;
+    transform-origin: bottom;
+}
+.hour{
+    background-color: rgb(58, 55, 55);
+    width: 9px;
+    height: 28%;
+    
+}
+.minute{
+    background-color: rgb(147, 132, 132);
+    width: 6px;
+    height: 38%;
+}
+.second{
+    background-color: red;
+    width: 4px;
+    height: 46%;
+}
